@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main right'
+      'menu footer footer footer footer footer';
+      gap: 15px 20px;
+  }
+
+  .grid-header{
+   grid-area: header;
+  }
+
+  .grid-menu{
+   grid-area: menu;
+  }
+
+  .grid-producto{
+   grid-area: main;
+  }
+
+  .gri-footer{
+   grid-area: footer;    
+  }
